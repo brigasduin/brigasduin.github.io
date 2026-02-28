@@ -1,6 +1,6 @@
 import requests 
 from datetime import datetime, timedelta
-API_KEY = 'eff69077aa88417982e30ad859e5d1ba'
+API_KEY = 'your API'
 URL = 'https://newsapi.org/v2/everything'
 
 def buscar_noticias():
