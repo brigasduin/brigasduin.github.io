@@ -1,6 +1,6 @@
 import requests 
 from datetime import datetime, timedelta
-API_KEY = 'your API'
+API_KEY = 'YG8YyGx0f84AY2Irh8rB9EdXRIppvMunPL5H5rEr1-E'  #your api here
 URL = 'https://newsapi.org/v2/everything'
 
 def buscar_noticias():
@@ -23,4 +23,5 @@ def buscar_noticias():
             return []
     except Exception as e:
         print(f'Connection error: {e}')
+
         return []
